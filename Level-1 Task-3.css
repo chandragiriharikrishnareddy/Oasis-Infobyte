@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkorange;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color:lightpink;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid lightgreen;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-group select,
+.input-group button {
+    padding: 10px;
+    border: 3px solid lightskyblue;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#resultDisplay {
+    font-size: 18px;
+    margin-top: 20px;
+    color:beige;
+}
