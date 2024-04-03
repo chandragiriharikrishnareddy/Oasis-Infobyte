@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Ordering App</title>
+  <link rel="stylesheet" href="Level-3.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Pizza Ordering App</h1>
+    <div id="loginForm">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button onclick="login()">Login</button>
+    </div>
+    <div id="pizzaOptions" class="hidden">
+      <h2>Pizza Varieties</h2>
+      <ul id="pizzaList"></ul>
+      <button onclick="logout()">Logout</button>
+    </div>
+  </div>
+  <script src="Level-3.js"></script>
+</body>
+</html>
